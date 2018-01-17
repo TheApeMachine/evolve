@@ -1,0 +1,14 @@
+echo "hello"
+
+loop inf
+  in < "What is your name?"
+
+  if in = "q"
+    out = "hi, {in}"
+  or
+    quit
+
+  each [1, 2, 3]
+    echo i++
+
+echo "bye"
